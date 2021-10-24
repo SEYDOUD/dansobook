@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">retour a l'accueil</a>
+    </header>
+    <div class="centre">
+        <form action="#">
+            <h1>LOGIN</h1>
+            <div><input class="inp" type="text" placeholder="nom"></div>
+            <div><input class="inp" type="text" placeholder="prenom"></div>
+            <div><input class="inp" type="password" placeholder="password"></div>
+            <div><input class="inp" type="email" placeholder="email"></div>
+            <label >sexe:</label>
+            <div>
+                <label for="homme">homme</label>
+                <input type="radio" name="sex" id="homme">
+                <label for="femme">femme</label>
+                <input type="radio" name="sex" id="femme">
+            </div>
+            <label class="da" for="date">date de naissance:</label>
+            <div><input class="inp" type="datetime-local" id="date" ></div>
+            <label for="tel">telephone:</label>
+            <div><input class="inp" type="tel" name="tel" id="tel"></div>
+            <div><input type="checkbox" id="ja" > <label for="ja">j'accepte les conditions d'utilisation</label></div>
+            <div><input class="bout" type="button" value="s'inscrire"><input class="res" type="reset" value="annuler"></div>
+            <div class="DANSO">DANSOBOOK</div>
+            <div>deja un compte? <a href="seconnecter.html">se connecter</a></div>
+        </form>
+    </div>
+</body>
+</html>
